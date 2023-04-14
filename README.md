@@ -1,6 +1,6 @@
 # express-node.js
 
-This is a Node API using Express with a MongoDB database and Jest for testing.
+This is a To Do Node API using Express with a MongoDB database and Jest for testing.
 
 **Prerequisites:**
 
@@ -43,6 +43,46 @@ Returns json data detailing all of the todos in the `todos` collection.
 
     None
     
+* **Success Response:**
+
+    **Content:**
+    ```
+    {
+    "msg": "relevant tasks displayed",
+    "data": [
+        {
+            "_id": "[OBJECT ID]",
+            "task": "[TODO NAME]",
+            "details": "[TODO DETAILS]",
+            "completed": [BOOLEAN],
+            "priority": "[HIGH / MEDIUM / LOW]"
+        },
+        {
+            "_id": "[OBJECT ID]",
+            "task": "[TODO NAME]",
+            "details": "[TODO DETAILS]",
+            "completed": [BOOLEAN],
+            "priority": "[HIGH / MEDIUM / LOW]"
+        }
+      ],
+    "status": 200
+  }
+
+**Get completed/uncompleted or high/medium/low priority todos**
+---
+Returns json data detailing all of the todos in the `todos` collection that are either completed/not completed/high, medium or low priority (and combinations of those).
+* **URL**
+
+/todos?completed=true
+/todos?completed=false
+/todos?priority=low
+/todos?priority=medium
+/todos?priority=high
+
+* **Method:**
+
+  `GET`
+  
 * **Success Response:**
 
     **Content:**
