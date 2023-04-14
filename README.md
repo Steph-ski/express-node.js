@@ -115,7 +115,7 @@ Returns json data detailing all of the todos in the `todos` collection.
     "msg": "did not pass validation, task not added",
     "data": [],
     "status": 406
-  }
+ }
   
 **Add new todo**
 ----
