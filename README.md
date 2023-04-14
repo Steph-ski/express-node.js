@@ -67,6 +67,7 @@ Returns json data detailing all of the todos in the `todos` collection.
       ],
     "status": 200
   }
+```
 
 **Add new todo**
 ----
