@@ -158,6 +158,51 @@ Returns json data detailing all of the todos in the `todos` collection.
     "status": 200
   }
   ```
+  * **Error Response:** <br />
+  **Content:** 
+  
+  ```
+  {
+    "msg": "It has failed validation",
+    "data": [],
+    "status": 406
+}
+```
+
+**Edit todo by ID**
+----
+  Gives the user the ablity to edit any property of the todo. Validates user input and success/error messages sent as appropriate
+  
+* **URL**
+
+ /todos
+ 
+ * **Method:**
+
+  `POST`
+  
+ *  **URL Params**
+
+   **Required:**
+ 
+  None
+
+* **Data Params**
+
+  Task, details, priority, completed - all or some can be provided by the user
+  
+  * **Success Response:**
+ 
+   **Content:** 
+  ```
+  {
+    "msg": "its worked and updated your record",
+    "data": [],
+    "status": 200
+}
+```
+
+
 **Delete todo by ID**
 ----
   Deletes document from databse via object id 
