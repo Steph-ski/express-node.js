@@ -117,7 +117,7 @@ Returns json data detailing all of the todos in the `todos` collection.
     "status": 406
   }
   
- **Get todo by id**
+**Add new todo**
 ----
   Returns json data about a specific todo via the URL request
 
