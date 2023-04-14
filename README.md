@@ -158,3 +158,35 @@ Returns json data detailing all of the todos in the `todos` collection.
     "status": 200
   }
   ```
+**Delete todo by ID**
+----
+  Deletes document from databse via object id 
+
+* **URL**
+
+ /todos
+ 
+ * **Method:**
+
+  `DELETE`
+ 
+ *  **URL Params**
+
+   **Required:**
+ 
+  None
+
+* **Data Params**
+
+  Object _id
+ 
+ * **Success Response:**
+ 
+   **Content:** 
+  ```
+  {
+    "msg": "task deleted successfully",
+    "data": [],
+    "status": 200
+}
+```
