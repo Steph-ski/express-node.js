@@ -134,7 +134,7 @@ Returns json data detailing all of the todos in the `todos` collection.
 
    **Required:**
  
-	  Object _id
+ Object _id
 
 * **Data Params**
 
@@ -143,7 +143,7 @@ Returns json data detailing all of the todos in the `todos` collection.
  * **Success Response:**
  
    **Content:** 
-    ```
+  ```
   {
     "msg": "task retrieved",
     "data": [
