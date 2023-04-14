@@ -74,9 +74,13 @@ Returns json data detailing all of the todos in the `todos` collection that are 
 * **URL**
 
 /todos?completed=true
+
 /todos?completed=false
+
 /todos?priority=low
+
 /todos?priority=medium
+
 /todos?priority=high
 
 * **Method:**
