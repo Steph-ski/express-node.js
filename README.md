@@ -99,7 +99,7 @@ Returns json data detailing all of the todos in the `todos` collection.
   
   All new tasks are automatically assigned a completed status of false when instantiated. 
 
-* **Success Response:**
+* **Success Response:** <br />
   **Content:** 
   ```
   {
@@ -108,7 +108,7 @@ Returns json data detailing all of the todos in the `todos` collection.
     "status": 200
   }
   
- * **Error Response:**
+ * **Error Response:** <br />
   **Content:** 
   ```
   {
