@@ -107,6 +107,7 @@ Returns json data detailing all of the todos in the `todos` collection.
     "data": [],
     "status": 200
   }
+  ```
   
  * **Error Response:** <br />
   **Content:** 
