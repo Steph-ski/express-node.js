@@ -201,7 +201,7 @@ Returns json data detailing all of the todos in the `todos` collection.
     "msg": "its worked and updated your record",
     "data": [],
     "status": 200
-}
+	}
 	```
 
 **Delete todo by ID**
